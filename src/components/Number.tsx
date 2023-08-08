@@ -6,7 +6,7 @@ interface Props {
 const Number = ({ number, active }: Props) => {
 	return (
 		<div
-			className={`px-5 fc rounded-full border aspect-square transition-all duration-150 ${
+			className={`px-3 fc rounded-full border aspect-square transition-all duration-150 ${
 				active ? 'bg-light-blue text-marine-blue border-marine-blue' : 'bg-transparent text-white  border-white'
 			}`}
 		>

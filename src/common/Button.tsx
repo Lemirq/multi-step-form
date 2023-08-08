@@ -22,7 +22,7 @@ const Button: FC<btnProps> = ({ type, label, onClick, className }) => {
 					{label}
 				</button>
 			) : (
-				<button onClick={onClick} type="submit" className={`px-5 py-2 bg-marine-blue rounded-lg text-white ${className}`}>
+				<button onClick={onClick && onClick} type="submit" className={`px-5 py-2 bg-marine-blue rounded-lg text-white ${className}`}>
 					{label}
 				</button>
 			)}

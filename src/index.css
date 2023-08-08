@@ -44,3 +44,8 @@ input[type='checkbox'] {
 	white-space: nowrap;
 	width: 1px;
 }
+
+html,
+body {
+	overscroll-behavior: none;
+}
