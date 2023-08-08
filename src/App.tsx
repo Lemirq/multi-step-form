@@ -145,10 +145,6 @@ const App: FC = () => {
 		};
 	}, []);
 
-	useEffect(() => {
-		if (complete) console.log('nigga balls');
-	}, [complete]);
-
 	const iOSSafari =
 		navigator.userAgent.match(/iPad/i) ||
 		(navigator.userAgent.match(/iPhone/i) && navigator.userAgent.match(/WebKit/i) && !navigator.userAgent.match(/CriOS/i));
