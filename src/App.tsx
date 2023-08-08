@@ -60,9 +60,9 @@ const App: FC = () => {
 	const [formSubmitted, setFormSubmitted] = useState(false);
 	const [complete, setComplete] = useState(false);
 	const [FormData, setFormData] = useState({
-		name: 'a',
-		phone: '2222222222',
-		email: 'sharmavihaan190@gmail.com',
+		name: '',
+		phone: '',
+		email: '',
 	});
 	const [addons, setAddons] = useState<addonItem[]>([
 		{
